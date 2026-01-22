@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioGuardians - Protect Our Planet's Life!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS for the Cartoon Theme */
+        :root {
+            /* Cartoon Color Palette */
+            --color-sky-blue: #9FE9FF;
+            --color-grass-green: #74B952;
+            --color-sun-yellow: #FFD25B;
+            --color-earth-brown: #A0522D;
+            --color-accent-pink: #FF66A3;
+            --color-text-dark: #333333;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-sky-blue); /* Light blue sky background */
+            color: var(--color-text-dark);
+            line-height: 1.6;
+        }
+
+        /* ------------------ Header and Navigation ------------------ */
+
+        header {
+            background-color: var(--color-grass-green);
+            padding: 15px 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            border-bottom: 8px solid var(--color-earth-brown); /* Fun border */
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-family: 'Bungee Shade', cursive; /* Cartoon-style heading font */
+            font-size: 2em;
+            color: var(--color-sun-yellow);
+            text-shadow: 3px 3px 0 var(--color-text-dark); /* Fun, blocky shadow */
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        .nav-links a:hover {
+            background-color: var(--color-accent-pink);
+            transform: scale(1.05); /* Slight bounce effect */
+        }
+
+        /* ------------------ Hero Section ------------------ */
+
+        .hero {
+            background-color: var(--color-sky-blue);
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 10px dashed var(--color-accent-pink); /* Wavy border effect */
+        }
+
+        .hero h1 {
+            font-family: 'Bungee Shade', cursive;
+            font-size: 4em;
+            color: var(--color-text-dark);
+            margin-bottom: 10px;
+            text-shadow: 5px 5px 0 var(--color-sun-yellow);
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            color: var(--color-text-dark);
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--color-accent-pink);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px; /* Pill-shaped button */
+            font-size: 1.3em;
+            border: 5px solid var(--color-text-dark);
+            box-shadow: 4px 4px 0 var(--color-text-dark);
+            transition: transform 0.15s, box-shadow 0.15s;
+        }
+
+        .cta-button:active {
+            transform: translate(4px, 4px); /* Press down effect */
+            box-shadow: 0 0 0 var(--color-text-dark);
+        }
+
+        /* ------------------ Content Sections ------------------ */
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background-color: white;
+            margin: 30px 0;
+            padding: 40px;
+            border-radius: 20px; /* Rounded corners for a softer look */
+            box-shadow: 8px 8px 0 var(--color-earth-brown); /* Fun shadow */
+            border: 4px solid var(--color-text-dark);
+        }
+
+        .section h2 {
+            font-family: 'Bungee Shade', cursive;
+            color: var(--color-grass-green);
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 0 var(--color-text-dark);
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: var(--color-sky-blue);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            border: 3px solid var(--color-text-dark);
+            box-shadow: 4px 4px 0 var(--color-accent-pink);
+        }
+
+        .card h3 {
+            color: var(--color-earth-brown);
+        }
+
+        /* ------------------ Footer ------------------ */
+
+        footer {
+            background-color: var(--color-earth-brown);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 8px solid var(--color-grass-green);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">BioGuardians</div>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#what-is-it">What is it?</a>
+                <a href="#how-to-help">How to Help</a>
+                <a href="#gallery">Creature Gallery</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <h1>SAVE THE SQUIRRELS & SEALS!</h1>
+            <p>Every plant, every animal, every tiny bug matters. Let's protect the beautiful variety of life on Earth!</p>
+            <a href="#how-to-help" class="cta-button">Join the Guardians!</a>
+            </section>
+
+        <div class="container">
+            <section class="section" id="what-is-it">
+                <h2>What is Biodiversity? 🤔</h2>
+                <p style="text-align: center; font-size: 1.1em;">
+                    Biodiversity is the *variety* of life on Earth—all the plants, animals, and microorganisms, and the ecosystems they form. Think of it as a giant, colorful puzzle!
+                </p>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Genetic Diversity</h3>
+                        <p>The variety *within* a species (like all the different types of dogs or apples). It keeps populations healthy.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Species Diversity</h3>
+                        <p>The variety of different species in an area (like lions, butterflies, trees, and mushrooms). It makes ecosystems strong.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Ecosystem Diversity</h3>
+                        <p>The variety of places where life can be found (like rainforests, oceans, deserts, and wetlands). It supports all life.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="how-to-help">
+                <h2>Your Super Powers: How to Help! 🦸</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Grow a Garden</h3>
+                        <p>Plant native flowers and trees to give local insects and birds a home and food. </p>
+                    </div>
+                    <div class="card">
+                        <h3>Reduce, Reuse, Recycle</h3>
+                        <p>Less waste means less pollution, which protects habitats for land and ocean creatures.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Be a Smart Shopper</h3>
+                        <p>Choose sustainable products and avoid those that hurt animal habitats, like products with palm oil.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 BioGuardians. All rights reserved. Let's keep the planet vibrant!</p>
+    </footer>
+
+</body>
+</html>
